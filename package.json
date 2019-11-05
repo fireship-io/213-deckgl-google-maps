@@ -1,0 +1,25 @@
+{
+  "name": "deckgl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --output-path ./public",
+    "start": "webpack-dev-server --content-base ./public --output-path ./public --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "convert-csv-to-json": "0.0.15",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "^7.3.3",
+    "@deck.gl/core": "^7.3.3",
+    "@deck.gl/google-maps": "^7.3.3",
+    "@deck.gl/layers": "^7.3.3"
+  }
+}

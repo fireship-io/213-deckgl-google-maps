@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deck.gl + GoogleMaps</title>
+
+    <script src="main.js"></script>
+
+    <script defer
+	    src="https://maps.googleapis.com/maps/api/js?key=INSERT-API-KEY&callback=initMap">
+    </script>
+
+    <style>
+        body { margin: 0; }
+
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #tooltip {
+            position: absolute; 
+            background: white;
+            margin: 10px; padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <div id="tooltip"></div>
+    
+</body>
+</html>
